@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="pl.edu.pjwstk.mpr.WeightedAverageTest" tests="11" skipped="0" failures="4" errors="0" timestamp="2020-10-26T17:31:27" hostname="DESKTOP-0EHSE77" time="0.072">
+<testsuite name="pl.edu.pjwstk.mpr.WeightedAverageTest" tests="11" skipped="0" failures="4" errors="0" timestamp="2020-10-26T18:05:16" hostname="DESKTOP-0EHSE77" time="0.082">
   <properties/>
   <testcase name="should_remove_trailing_zeros_1" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.001"/>
   <testcase name="should_remove_trailing_zeros_2" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.0"/>
   <testcase name="should_remove_trailing_zeros_3" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.0"/>
-  <testcase name="should_calculate_average_of_large_file" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.0"/>
+  <testcase name="should_calculate_average_of_large_file" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.001"/>
   <testcase name="should_calculate_average_example_1" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.0"/>
   <testcase name="should_calculate_average_example_2" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.0"/>
-  <testcase name="should_throw_when_file_does_not_exist" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.056">
+  <testcase name="should_throw_when_file_does_not_exist" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.061">
     <failure message="java.lang.AssertionError: &#13;&#10;Expecting message:&#13;&#10; &lt;&quot;File doesn't exist !!! &quot;&gt;&#13;&#10;but was:&#13;&#10; &lt;&quot;File does not exits&quot;&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
 Expecting message:
  &lt;&quot;File doesn't exist !!! &quot;&gt;
@@ -63,7 +63,7 @@ but was:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="should_throw_when_content_of_a_file_has_wrong_format" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.005">
+  <testcase name="should_throw_when_content_of_a_file_has_wrong_format" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.008">
     <failure message="java.lang.AssertionError: &#13;&#10;Expecting message:&#13;&#10; &lt;&quot;Wrong content&quot;&gt;&#13;&#10;but was:&#13;&#10; &lt;&quot;Number in this file, can't be formatted to long, check it&quot;&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
 Expecting message:
  &lt;&quot;Wrong content&quot;&gt;
@@ -175,8 +175,8 @@ but was:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="should_create_class" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.0"/>
-  <testcase name="should_calculate_simple_average" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.007">
+  <testcase name="should_create_class" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.001"/>
+  <testcase name="should_calculate_simple_average" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.009">
     <failure message="org.junit.ComparisonFailure: expected:&lt;[4].0&gt; but was:&lt;[2].0&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;[4].0&gt; but was:&lt;[2].0&gt;
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
