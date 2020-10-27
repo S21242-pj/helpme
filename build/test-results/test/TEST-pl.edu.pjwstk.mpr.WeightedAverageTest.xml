@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="pl.edu.pjwstk.mpr.WeightedAverageTest" tests="12" skipped="0" failures="6" errors="0" timestamp="2020-10-26T21:43:00" hostname="DESKTOP-0EHSE77" time="0.125">
+<testsuite name="pl.edu.pjwstk.mpr.WeightedAverageTest" tests="12" skipped="0" failures="6" errors="0" timestamp="2020-10-27T07:02:34" hostname="DESKTOP-0EHSE77" time="0.075">
   <properties/>
-  <testcase name="should_remove_trailing_zeros_1" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.01">
-    <failure message="java.lang.NumberFormatException: Something is wrong" type="java.lang.NumberFormatException">java.lang.NumberFormatException: Something is wrong
+  <testcase name="should_remove_trailing_zeros_1" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.007">
+    <failure message="java.lang.NumberFormatException: Something is wrong, here is a problem!" type="java.lang.NumberFormatException">java.lang.NumberFormatException: Something is wrong, here is a problem!
 	at pl.edu.pjwstk.mpr.WeightedAverage.calculate(WeightedAverage.java:53)
-	at pl.edu.pjwstk.mpr.WeightedAverage.resultAsString(WeightedAverage.java:81)
+	at pl.edu.pjwstk.mpr.WeightedAverage.resultAsString(WeightedAverage.java:84)
 	at pl.edu.pjwstk.mpr.WeightedAverageTest.should_remove_trailing_zeros_1(WeightedAverageTest.java:131)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -56,9 +56,9 @@
 </failure>
   </testcase>
   <testcase name="should_remove_trailing_zeros_2" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.001">
-    <failure message="java.lang.NumberFormatException: Something is wrong" type="java.lang.NumberFormatException">java.lang.NumberFormatException: Something is wrong
+    <failure message="java.lang.NumberFormatException: Something is wrong, here is a problem!" type="java.lang.NumberFormatException">java.lang.NumberFormatException: Something is wrong, here is a problem!
 	at pl.edu.pjwstk.mpr.WeightedAverage.calculate(WeightedAverage.java:53)
-	at pl.edu.pjwstk.mpr.WeightedAverage.resultAsString(WeightedAverage.java:81)
+	at pl.edu.pjwstk.mpr.WeightedAverage.resultAsString(WeightedAverage.java:84)
 	at pl.edu.pjwstk.mpr.WeightedAverageTest.should_remove_trailing_zeros_2(WeightedAverageTest.java:144)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -109,10 +109,10 @@
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="should_remove_trailing_zeros_3" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.001">
-    <failure message="java.lang.NumberFormatException: Something is wrong" type="java.lang.NumberFormatException">java.lang.NumberFormatException: Something is wrong
+  <testcase name="should_remove_trailing_zeros_3" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.0">
+    <failure message="java.lang.NumberFormatException: Something is wrong, here is a problem!" type="java.lang.NumberFormatException">java.lang.NumberFormatException: Something is wrong, here is a problem!
 	at pl.edu.pjwstk.mpr.WeightedAverage.calculate(WeightedAverage.java:53)
-	at pl.edu.pjwstk.mpr.WeightedAverage.resultAsString(WeightedAverage.java:81)
+	at pl.edu.pjwstk.mpr.WeightedAverage.resultAsString(WeightedAverage.java:84)
 	at pl.edu.pjwstk.mpr.WeightedAverageTest.should_remove_trailing_zeros_3(WeightedAverageTest.java:156)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -163,11 +163,11 @@
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="should_calculate_average_of_large_file" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.091"/>
-  <testcase name="should_calculate_average_example_1" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.001"/>
+  <testcase name="should_calculate_average_of_large_file" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.052"/>
+  <testcase name="should_calculate_average_example_1" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.0"/>
   <testcase name="should_calculate_average_example_2" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.001"/>
-  <testcase name="should_calculate_average_example_3" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.001"/>
-  <testcase name="should_throw_when_file_does_not_exist" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.012">
+  <testcase name="should_calculate_average_example_3" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.0"/>
+  <testcase name="should_throw_when_file_does_not_exist" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.008">
     <failure message="java.lang.AssertionError: &#13;&#10;Expecting message:&#13;&#10; &lt;&quot;File doesn't exist !!! &quot;&gt;&#13;&#10;but was:&#13;&#10; &lt;&quot;File does not exits&quot;&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
 Expecting message:
  &lt;&quot;File doesn't exist !!! &quot;&gt;
@@ -223,12 +223,12 @@ but was:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="should_throw_when_content_of_a_file_has_wrong_format" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.002">
-    <failure message="java.lang.AssertionError: &#13;&#10;Expecting message:&#13;&#10; &lt;&quot;Wrong content&quot;&gt;&#13;&#10;but was:&#13;&#10; &lt;&quot;Something is wrong&quot;&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
+  <testcase name="should_throw_when_content_of_a_file_has_wrong_format" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.001">
+    <failure message="java.lang.AssertionError: &#13;&#10;Expecting message:&#13;&#10; &lt;&quot;Wrong content&quot;&gt;&#13;&#10;but was:&#13;&#10; &lt;&quot;Something is wrong, here is a problem!&quot;&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
 Expecting message:
  &lt;&quot;Wrong content&quot;&gt;
 but was:
- &lt;&quot;Something is wrong&quot;&gt;
+ &lt;&quot;Something is wrong, here is a problem!&quot;&gt;
 	at pl.edu.pjwstk.mpr.WeightedAverageTest.should_throw_when_content_of_a_file_has_wrong_format(WeightedAverageTest.java:72)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -279,7 +279,7 @@ but was:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="should_throw_when_file_not_specifited" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.002">
+  <testcase name="should_throw_when_file_not_specifited" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.001">
     <failure message="java.lang.AssertionError: &#13;&#10;Expecting message:&#13;&#10; &lt;&quot;No file is specified.&quot;&gt;&#13;&#10;but was:&#13;&#10; &lt;&quot;no file&quot;&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
 Expecting message:
  &lt;&quot;No file is specified.&quot;&gt;
@@ -335,7 +335,7 @@ but was:
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="should_create_class" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.001"/>
+  <testcase name="should_create_class" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.0"/>
   <testcase name="should_calculate_simple_average" classname="pl.edu.pjwstk.mpr.WeightedAverageTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

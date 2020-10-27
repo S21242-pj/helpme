@@ -50,7 +50,10 @@ public class WeightedAverage {
                     wi = Long.parseLong(wi_str);
                     xi = Long.parseLong(xi_str);
                 } catch (NumberFormatException b) {
-                    throw new NumberFormatException("Something is wrong");
+                    throw new NumberFormatException("Something is wrong, here is a problem!");
+                    /**
+                     * POPRAW TO PÓŹNIEJ!!!!!!!!!!!!!!!!!
+                     */
                 }
 
                 w_sum += wi;
